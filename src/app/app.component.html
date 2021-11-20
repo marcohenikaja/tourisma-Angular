@@ -1,0 +1,47 @@
+  <!-- Nav  -->
+<nav id="Topnav">  
+  <ul>
+    <li><a [routerLink]="['']"><img src="../assets/Tourisma.png" alt="logo" id="logo"></a></li>
+    <li class="navright"><a [routerLink]="['/apropos']">A propos</a></li>
+    <li class="dropdown navright"><a [routerLink]="['/hotels']">Hotels                 
+      <ul class="dropdown-content">
+        <li><a href="#Hotels1">Hotels 1</a></li>
+        <li><a href="#Hotels2">Hotels 2</a></li>
+        <li><a href="#Hotels3">Hotels 3</a></li>        
+        <li><a href="#Hotels4">Hotels 4</a></li>        
+      </ul>  
+    </a>
+  </li>  
+    <li class="dropdown navright"><a [routerLink]="['/agences']">Agences
+      <ul class="dropdown-content">
+        <li><a href="#Agences1">Agences 1</a></li>
+        <li><a href="#Agences2">Agences 2</a></li>
+        <li><a href="#Agences3">Agences 3</a></li>        
+        <li><a href="#Agences4">Agences 4</a></li>        
+      </ul> 
+    </a> 
+  </li>
+    
+  <li class="navright"><a [routerLink]="['/accueil']">Acceuil</a></li>
+  </ul>      
+</nav>
+
+<!-- Main Page  (components)-->
+<div id="mainPage">
+  <router-outlet></router-outlet>
+</div>
+
+<!-- Footer  -->
+<footer>
+  <div>
+      <p>contact</p>
+      <p>email</p>
+      <p>addresse</p>
+  </div>
+  <div id="pied">
+    <div>
+      <h1>Tourisma<span class="orange">.</span></h1>      
+      <div class="copyright"> Copyright, 2021 &copy; Tous droits réservés.by IZY FITO MIANADAHY</div>
+    </div>        
+  </div>
+</footer>

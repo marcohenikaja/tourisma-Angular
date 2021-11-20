@@ -1,0 +1,92 @@
+#logo{
+  position: absolute;
+  top: 25%;
+}
+
+#Topnav{
+    width: 100%;    
+    background-color: rgb(77 , 77, 77);
+    position: fixed;
+    top: 0;
+    z-index: 1;    
+    padding: 0.5% 0%;    
+}
+
+#Topnav ul li{
+  display: inline-block;
+  list-style-type: none; 
+  margin: 0% 4%;
+  
+}
+#Topnav ul li a{
+    text-decoration: none;   
+    color: white;        
+    margin: 4% 0%;
+    width: 25%;
+    padding: 12px;
+}
+.dropdown-content{
+    display: none;     
+    padding: 1% 0% 1% 1%;  
+    position: absolute;   
+    margin-left: -3%;
+    top: 50px;
+    background-color: rgb(77, 77, 77);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);   
+    width: 12%;   
+    font-size: 0.9rem;
+}
+.dropdown-content li{
+ display: inline-block;
+ width: 80%; 
+ height: 25%;
+ padding:10% 0%;
+ text-align: center;
+}
+.dropdown-content li:hover {
+  border-bottom: 1px solid white;  
+}
+.dropdown{cursor: pointer;color: white;}
+.dropdown:hover .dropdown-content{display: block;}
+
+.navright{
+  float: right;
+}
+
+
+/*mainpage@accueil*/
+#mainPage {
+  margin-top: 4.6%;
+}
+
+footer{
+  background-color: #04091e;
+  color: #777777;
+  padding: 4% 4% 0.25% 4%;
+  margin-top: 4%;
+}
+#pied{  
+  text-align: center;
+  border-top: 1px solid #777777;
+  margin-top: 4%;
+}
+
+
+
+.orange
+{
+    color: #ff7a00;
+}
+/*Footer*/
+footer h1{
+    color: #fff;
+    text-align: center;
+    padding-top: 80px;
+    
+}
+.copyright{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    color: #777;
+}
