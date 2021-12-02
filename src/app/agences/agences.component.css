@@ -1,0 +1,158 @@
+.mainPage-container{
+    margin: 0;
+    padding: 0;
+}
+
+.body-agence{
+    margin-bottom: -20px;
+    display: flex;
+    
+}
+
+/*                   TITRE                    */
+
+.title{
+    display: flex;
+}
+
+.logo{
+    margin: 20px;
+}
+
+#logo2{
+    margin-left: auto;
+}
+
+.logogt{
+    width: 150px;
+    height: 150px;
+}
+
+.titre{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: sienna;
+}
+
+.bienvenue{
+    margin-left: auto;
+    margin-top: 30px;
+}
+
+#destination{
+    display: flex;
+}
+
+.img-destination{
+    margin-top: 50px;
+    margin-left: 15px;
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.type-item{
+    display: flex;
+}
+
+#type{
+    color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#transport{
+    border-left: 4px double crimson;
+    padding-left: 20px;
+}
+
+
+/*                   VUE DROITE                    */
+
+.container{
+    flex: 8;
+}
+
+.content{
+    margin: 3px;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+
+/*                   VUE GAUCHE                    */
+
+.sidebar{
+    flex: 4;
+    border-left: 4px double crimson;
+    padding: 10px;
+    margin-left: 2px;
+    
+}
+
+.sidefixed{
+    margin-top: 20px;
+    position: sticky;
+     
+}
+
+.sidebarTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    border-top: 2px solid coral;
+    border-bottom: 2px solid coral;
+    color: #621b08;
+    text-transform: uppercase;
+}
+
+.text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p{
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+
+ul{
+    margin-top: 0;
+}
+
+#icon1{
+    margin-right: 10px;
+    width: 18px;
+    height: 18px;
+}
+
+#icon2{
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+#icon_mail{
+    width: 22px;
+    height: 22px; 
+}
+
+#mail-label{
+    margin-bottom: 5px;
+}
+
+img{
+    margin-bottom: -5px;
+}
+
+.mail{
+    padding-top: none;
+}
+
+#contact_label{
+    margin-left: 20px;
+    margin-bottom: 6px;
+}
